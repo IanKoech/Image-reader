@@ -4,7 +4,7 @@ import sqlite3
 from tkinter import Tk, filedialog, messagebox, Toplevel, Label, simpledialog
 
 # OpenAI API Key
-api_key = "sk-proj-pZZ2JI1H1vYoFkum1OzST3BlbkFJSgKB7EFI0FlLYvNrOv73"
+api_key = "env.api_key_here"
 
 # Database setup
 def setup_database():
